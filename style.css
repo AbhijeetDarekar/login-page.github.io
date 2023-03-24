@@ -1,0 +1,80 @@
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+    background-image: url(a1.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.login-container {
+    width: 400px;
+
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #ffffff1e;
+    border-radius: 10px;
+    box-shadow: 25px 25px 25px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    background-color: #ffffff1e;
+
+}
+
+input[placeholder="Enter your username"],
+input[ placeholder="Enter your password"]{
+    color: rgb(0, 0, 0);
+
+}
+
+::placeholder {
+    color: rgba(0, 0, 0, 0.556);
+}
+
+button[type="submit"] {
+    background-color: #55c559;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #2d8b30;
+}
